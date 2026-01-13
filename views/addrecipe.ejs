@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New recipe</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <h1>Foodie Diary</h1>
+    </header>
+
+   
+    <main>
+         <div class="title-bar">
+        <button type="button" onclick="window.location.href='/'" class="btn back">
+            <<
+        </button>
+        <h1>Add a new recipe</h1>
+    </div>
+    <form action="/add-recipe" method="POST" enctype="multipart/form-data" class="add-recipe">
+
+        <div class="form-item">
+        <h3>Recipe title</h3>
+        <input type="text" name="title" placeholder="Recipe title" class="new-input" required><br><br>
+        </div>
+
+        <div class="form-item">
+            <h3>Image</h3>
+            <div class="file-upload addrecipe">
+                <span class="file-text">Click here to upload an image</span>
+                <input type="file" name="image" id="image-upload" accept="image/*">
+            </div>
+        </div>
+        
+        <div class="form-item">
+        <h3>Description</h3>
+        <input type="text" name="description" placeholder="Description" class="new-input" required><br><br>
+        </div>
+
+        <div class="form-item">
+        <h3>Time</h3>
+        <input type="text" name="time" placeholder="Time needed" class="new-input" required><br><br>
+        </div>
+
+        <div class="form-item">
+        <h3>Portions</h3>
+        <input type="text" name ="portions" placeholder="Portions" class="new-input" required><br><br>
+        </div>
+
+        <div class="form-item">
+        <h3>Ingredients</h3>
+        <div id="ingredients-container">
+            <div class="ingredient">
+                <input type="text" name="ingredients[]" placeholder="Ingredient" class="new-input">
+                <button type="button" id="add-ingredient">Add ingredient</button>
+            </div>
+        </div>
+        
+        </div>
+        
+        <div class="form-item">
+        <h3>Instructions</h3>
+        <div id="steps-container">
+            <div class="step">
+                <input type="text" name="steps[]" placeholder="Step" class="new-input">
+                <button type="button" id="add-step">Add step</button>
+            </div>
+        </div>
+        
+        </div>
+
+        
+
+        <button type="submit" class="addrecipe">Add recipe</button>
+
+    </form>
+
+
+    </main>
+
+    <footer>
+        <h2>Foodie Diary 2026</h2>
+    </footer>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>

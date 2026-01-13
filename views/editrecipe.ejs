@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit <%= recipe.title %></title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <h1>Foodie Diary</h1>
+    </header>
+    <main><div class="title-bar">
+        <button type="button" onclick="window.location.href='/'" class="btn back">
+            <<
+        </button>
+        <h1>Edit <%= recipe.title %></h1>
+    </div>
+    
+
+    <form action="/edit-recipe" method="POST" enctype="multipart/form-data" class="edit-recipe">
+
+        <input type="hidden" name="originalFile" value="<%= recipe.file %>">
+
+        <label>Title:</label>
+        <input type="text" name="title" value="<%= recipe.title %>" class="new-input" required><br>
+
+        <label>Image:</label>
+
+        <div class="file-upload">
+            <span class="file-text">Click here to upload an image</span>
+            <input type="file" name="image" id="image-upload" accept="image/*">
+        </div>
+        
+        <label>Description:</label>
+        <textarea name="description" class="new-input" required><%= recipe.description%> </textarea><br>
+
+        <label>Time:</label>
+        <input type="text" name="time" value="<%= recipe.time %>" class="new-input" required><br>
+
+        <label>Portions:</label>
+        <input type="text" name="portions" value="<%= recipe.portions %>" class="new-input" required><br>
+
+        <label>Ingredients</label>
+        <div class="ingredient-container">
+        <div id="ingredients-container">
+            <% recipe.ingredients.forEach(function(ingredient, index) { %>
+                <div class="ingredient">
+                    <input type="text" name="ingredients[]" value="<%= ingredient %>" class="new-input" required>
+                </div>
+            <% }); %>
+        </div>
+        <button type="button" id="add-ingredient">Add Ingredient</button><br>
+        </div>
+
+        <label>Steps</label>
+        <div class="step-container"> 
+        <div id="steps-container">
+            <% recipe.steps.forEach(function(step, index) { %>
+                <div class="step">
+                    <input type="text" name="steps[]" value="<%= step %>" class="new-input" required>
+                </div>
+             <% }); %>
+        </div>
+        <button type="button" id="add-step">Add Step</button><br>
+        </div>
+
+        <button type="submit">Save Changes</button>
+
+    </form>
+     </main>
+    <footer>
+        <h2>Foodie Diary 2026</h2>
+    </footer>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>

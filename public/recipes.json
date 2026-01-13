@@ -1,0 +1,120 @@
+[
+  {
+    "title": "5-Minute Scrambled Eggs",
+    "file": "5-minute-scrambled-eggs.html",
+    "image": "/uploads/1768326412907-scambledeggs.jpg",
+    "description": "A quick and easy breakfast",
+    "time": "5 mins",
+    "portions": "1",
+    "ingredients": [
+      "2 large eggs",
+      "1 tsp butter or oil",
+      "Pinch of salt",
+      "Pinch of black pepper",
+      "Optional: 1–2 tbsp shredded cheese, a handful of spinach, or 1 slice of toast"
+    ],
+    "steps": [
+      "Crack eggs into a bowl, add salt & pepper, and whisk until yolks and whites are fully combined.",
+      "Heat butter in a nonstick pan over medium heat. Pour in eggs. Stir gently with a spatula, scraping the edges to the center. Keep stirring occasionally until eggs are mostly set but still slightly soft.",
+      "Remove from heat (eggs will keep cooking slightly off the heat). Top with cheese or add spinach to wilt for 30 seconds. Serve with toast if desired."
+    ]
+  },
+  {
+    "title": "Garlic Butter Pasta",
+    "file": "garlic-butter-pasta.html",
+    "image": "/uploads/1768326609156-garlicpasta.jpeg",
+    "description": "Quick and tasty ",
+    "time": "15 mins",
+    "portions": "1",
+    "ingredients": [
+      "75g dry pasta",
+      "1 tbsp butter",
+      "1 garlic clove, minced (or ½ tsp garlic powder)",
+      "Pinch of salt",
+      "Pinch of black pepper",
+      "2 tbsp grated Parmesan, chili flakes, or fresh parsley"
+    ],
+    "steps": [
+      "Boil a pot of salted water. Add pasta and cook until al dente. Drain and reserve 1–2 tbsp pasta water.",
+      "In a pan over medium heat, melt butter. Add garlic and sauté for 30–60 seconds until fragrant (don’t burn it!).",
+      "Add cooked pasta to the pan, toss with butter & garlic. If too dry, add a splash of reserved pasta water. Season with salt, pepper, and optional toppings."
+    ]
+  },
+  {
+    "title": "Quick Grilled Cheese",
+    "file": "quick-grilled-cheese.html",
+    "image": "/uploads/1768327155588-grilled cheese.jpg",
+    "description": "Quick and tasty ",
+    "time": "5 mins",
+    "portions": "1",
+    "ingredients": [
+      "2 slices of bread",
+      "1-2 slices of cheese",
+      "1 tsp butter"
+    ],
+    "steps": [
+      "Prep (1 min): Butter one side of each bread slice. Place cheese between the unbuttered sides so the butter is on the outside.",
+      "Heat a pan over medium heat. Place the sandwich in the pan, butter side down. Cook 2–3 minutes until golden brown. Flip carefully and cook another 1–2 minutes.",
+      "Remove from pan, slice, and enjoy while warm. Optional: add tomato slices or a pinch of herbs."
+    ]
+  },
+  {
+    "title": "Sheet-Pan Chicken and Veggies",
+    "file": "sheet-pan-chicken-and-veggies.html",
+    "image": "/uploads/1768327388671-chicken.jpg",
+    "description": "Healthy food",
+    "time": "30 mins",
+    "portions": "1",
+    "ingredients": [
+      "1 chicken breast",
+      "1 cup mixed vegetables",
+      "1 tsp olive oil",
+      "Pinch of salt",
+      "Pinch of black pepper",
+      "Optional: ½ tsp paprika, garlic powder, or dried herbs"
+    ],
+    "steps": [
+      "Preheat oven to 400°F (200°C). Slice vegetables and lightly season chicken and veggies with olive oil, salt, pepper, and optional spices.",
+      "Place chicken and vegetables on a baking sheet in a single layer. Bake until chicken reaches an internal temp of 165°F (74°C) and veggies are tender.",
+      "Let chicken rest 2–3 minutes, then slice and serve with veggies."
+    ]
+  },
+  {
+    "title": "2-Ingredient Banana Pancakes",
+    "file": "2-ingredient-banana-pancakes.html",
+    "image": "/uploads/1768327533306-pancake.jpg",
+    "description": "Sweet and tasty",
+    "time": "5 mins",
+    "portions": "2-3 pancakes",
+    "ingredients": [
+      "1 ripe banana",
+      "2 eggs",
+      "Optional: pinch of cinnamon, 1 tsp peanut butter, or berries"
+    ],
+    "steps": [
+      "Mash the banana in a bowl until smooth. Beat in the eggs until fully combined. Add optional cinnamon or extras.",
+      "Heat a nonstick pan over medium heat. Lightly oil or butter the pan. Pour small portions of batter (about 2–3 inches wide) into the pan. Cook 1–2 minutes until edges set, then flip and cook another 1–2 minutes.",
+      "Stack pancakes, add toppings like peanut butter, syrup, or fruit, and enjoy!"
+    ]
+  },
+  {
+    "title": "Quick Tuna Salad",
+    "file": "quick-tuna-salad.html",
+    "image": "/uploads/1768327664262-tuna salad.jpeg",
+    "description": "Healthy and quick",
+    "time": "5 mins",
+    "portions": "1",
+    "ingredients": [
+      "1 can of tuna (in water or oil, ~120g / 4 oz)",
+      "1–2 tbsp mayonnaise (or Greek yogurt for a lighter option)",
+      "½ tsp mustard (optional)",
+      "Salt and pepper, to taste",
+      "Optional: chopped celery, onion, or pickles"
+    ],
+    "steps": [
+      "Drain the tuna and place it in a bowl.",
+      "Add mayonnaise, mustard (if using), salt, and pepper. Stir until well combined. Add optional veggies if desired.",
+      "Eat as is, on bread, in a wrap, or on a bed of lettuce."
+    ]
+  }
+]
